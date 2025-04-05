@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uhmmmm...</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <section
+      class="flex min-h-screen flex-wrap justify-center bg-black font-sans"
+    >
+      <div class="flex items-center justify-center p-4">
+        <button
+          id="startButton"
+          class="relative transform-gpu rounded-lg shadow-lg transition-transform active:scale-95"
+        >
+          <span
+            class="relative z-10 block rounded-md bg-blue-600 px-6 py-3 font-extrabold text-white"
+          >
+            Blast Off 🚀
+          </span>
+          <span
+            class="absolute inset-0 z-0 translate-y-1 transform rounded-lg bg-blue-700"
+          ></span>
+          <span id="countdownDisplay"></span>
+        </button>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
